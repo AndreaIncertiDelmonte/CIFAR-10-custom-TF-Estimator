@@ -30,20 +30,20 @@ $ jupiter notebook
 ## 01 data inspection and conversion pipeline
 Main features:
 - Download of [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) dataset
-- Load data with cPickel
+- Load data with cPickle
 - Print some records
 - Create train, eval and test sets
-- Check for imbalanced dataset problem
-- TFRecords creation
+- Check for the imbalanced dataset problem
+- TFRecords creation.
 
 ## 02 train and eval pipeline
 Main features:
 - Input pipeline definition
 - LeNet model definition
-- DeepLeNet model definiton
+- DeepLeNet model definition
 - Custom estimator definition
 - Model training and evaluation on eval set
-- Model evaluation on test set
+- Model evaluation on test set.
 
 ### Run configurations
 Model selection:
@@ -58,7 +58,7 @@ FLAGS.model_name = FLAGS.deep_lenet_model_name
 Main features:
 - Load CIFAR-10 test data
 - Load exported predictor
-- Apply inference on test data
+- Apply inference on test data.
 
 ### Run configurations
 Model selection:
